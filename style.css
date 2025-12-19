@@ -1,0 +1,6 @@
+body { background: #121212; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif; }
+.calc-container { background: #333; padding: 20px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+input { width: 100%; height: 50px; font-size: 24px; text-align: right; margin-bottom: 10px; background: #eee; border: none; }
+button { width: 60px; height: 60px; font-size: 20px; margin: 5px; cursor: pointer; border-radius: 5px; border: none; }
+.operator { background: #f39c12; color: white; }
+.equal { background: #27ae60; color: white; width: 135px; }
