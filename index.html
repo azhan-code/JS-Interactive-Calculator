@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azhan's JS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc-container">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button onclick="clearDisplay()" class="operator">C</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('/')" class="operator">/</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('*')" class="operator">*</button>
+            <button onclick="calculate()" class="equal">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
